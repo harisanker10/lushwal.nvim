@@ -8,7 +8,7 @@ local scheme = lush(function()
 	end
 	-- selene: allow(undefined_variable)
 	return {
-		Normal({ fg = colors.foreground, bg = none }),
+		Normal({ fg = colors.foreground}),
 		Bold({ Normal, gui = "bold" }),
 		Italic({ Normal, gui = "italic" }),
 
