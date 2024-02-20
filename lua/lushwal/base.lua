@@ -21,7 +21,7 @@ local scheme = lush(function()
 		Folded({ fg = colors.white, bg = colors.br_black, gui = "italic" }),
 		IncSearch({ fg = colors.br_black, bg = colors.orange }),
 
-		VertSplit({ fg = colors.white, bg = colors.background }),
+		VertSplit({ fg = colors.white}),
 		WinSeparator({ VertSplit }),
 
 		Macro({ fg = colors.red }),
@@ -42,9 +42,9 @@ local scheme = lush(function()
 		Whitespace({ Conceal }),
 		Cursor({ fg = colors.background, bg = colors.foreground }),
 		NonText({ fg = colors.br_grey }),
-		EndOfBuffer({ fg = colors.foreground, bg = colors.background }),
+		EndOfBuffer({ fg = colors.foreground}),
 		SignColumn({ fg = colors.grey, bg = colors.background }),
-		LineNr({ fg = colors.br_grey, bg = colors.background }),
+		LineNr({ fg = colors.br_grey}),
 		ColorColumn({ fg = colors.grey }),
 		CursorColumn({ fg = colors.grey }),
 		CursorLine({ fg = colors.br_black, gui = "None" }),
